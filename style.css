@@ -1,0 +1,243 @@
+img#icon{
+    width: 30px; 
+    margin-right: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.banner{
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	background-color: #F0635D;
+}
+p.header{
+    margin-top: 72px;
+}
+.banner img{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height:500px;
+    width:100%;
+}
+img#sdglogo{
+	height:200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sdg{
+	display:block;
+	justify-content: center;
+    position:relative;
+}
+.sdg p{
+	color:Navy;
+    font-family:Comic Sans Ms;
+    font-size:15pt;
+    width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+img#sdglist{
+	height:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:50px;
+}
+img#initiatives{
+	height:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sdg a{
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    background-color: #39FA0E;
+    position:absolute;
+    right:10px;
+    border-radius:75%;
+    font-size:16pt;
+}
+.contact{
+    position:relative;
+    width: 100%;
+	height: auto;
+	justify-content: center;
+}
+.contact h1{
+    font-family:Comic Sans Ms;
+    font-size:32pt;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom:50px;
+}
+form{
+    margin-left:auto;
+	margin-right:auto;
+    font-size: 20pt;
+    width:30%;
+}
+input{
+    width:100%;
+    height:30px;
+    text-align: left;
+}
+.message{
+    height:100px;
+    margin: -1px 0 0;
+    text-align: start;
+    display:inline-block;
+    overflow-wrap: break-word;
+    vertical-align:top;
+}
+.socmedia{
+    padding-left:20px;
+    padding-top:100px;
+}
+.socmedia img{
+    height:50px;
+}
+p.header2{
+    margin-top: 50px;
+}
+.midtitle{
+    display:block;
+    position:fixed;
+    background-color: antiquewhite;
+    width:100%;
+    z-index:100;
+    top:0;
+    padding-top:0;
+    margin:0;
+    list-style: none;     
+}
+
+.midtitle a{
+    margin-top:-5px;
+    color: black;
+    text-align: center;
+    padding: 16px 15px;
+    text-decoration: none;
+    position:absolute;
+    left:10px;
+    border-radius:50%;
+    font-size:15pt;
+    font-family: Arial Black;
+}
+
+img#logo2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height: 30px;
+    padding:10px;
+}
+.inititle{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background-color: #B82ABF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.inititle p{
+    font-size: 30pt;
+    color: white;
+    font-family: Arial Black;
+}
+p.title{
+    padding-left:20px;
+    font-size: 25pt;
+    font-family: Arial Black;
+}
+p.content{
+    font-size: 15pt;
+    font-family: Arial;
+}
+div{
+    display:block;
+}
+.locationtext{
+    display:flex;
+}
+img#location{
+    height: 400px;
+    margin:30px;
+}
+.location p.content{
+    margin-top: 50px;
+}
+.info{
+    padding: 20px;
+    background-color:#E5E5E5;
+}
+.guide{
+    display:flex;
+    margin-left:20px;
+    padding-bottom: 50px;
+}
+.way{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:#FFF796;
+    height:300px;
+    width:200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right:80px;
+}
+img#steps{
+    height: 200px;
+}
+.detail1, .detail2, .detail3, .detail4{
+    display:none;
+    text-align: center;
+    position:relative;
+    margin:20px;
+    font-size: 18pt;
+}
+.step1:hover + .detail1, .step2:hover + .detail2, .step3:hover + .detail3, .step4:hover + .detail4{
+    display:block;
+}
+.step1:hover, .step2:hover, .step3:hover, .step4:hover{
+    display:none;
+}
+.ini{
+    background-color:#DFF9AC;
+}
+.types{
+    display:flex;
+    margin-left:20px;
+    padding-bottom: 50px;
+}
+.garbage{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:#FFF796;
+    height:130px;
+    width:280px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+img#trashes{
+    width:250px;
+}
+
+.name1, .name2, .name3, .name4{
+    display:none;
+    text-align: center;
+    position:relative;
+    margin:20px;
+    font-size: 18pt;
+}
+.trash1:hover + .name1, .trash2:hover + .name2, .trash3:hover + .name3, .trash4:hover + .name4{
+    display:block;
+}
+.trash1:hover, .trash2:hover, .trash3:hover, .trash4:hover{
+    display:none;
+}

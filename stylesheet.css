@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;    
+}
+body{
+    background-color: #eddfb3;
+}
+
+.menu {
+    position: fixed;
+    background-color: #876445;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu h3 {
+    color: whitesmoke;
+    size: 100px;
+    margin-left: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    cursor: pointer;
+} 
+
+li{
+    margin-top: 15px;
+    margin-right: 120px;
+    float: auto ;
+}
+
+li, a {
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li{
+    text-align: center;
+    display: block;
+    padding: 0px 20px; 
+    margin-left: 20px;
+} 
+
+ul li a{
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    text-decoration:underline;
+}
+
+button {
+    background-color: #76BA99;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 1cm;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    float: right
+}
+button:hover {
+    background-color: #ca955c;
+}
+
+.content img{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height:auto;
+    width: 100%;
+}
+.content p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-top: 25px;
+    margin-bottom:25px; ;
+    display: block;
+
+}
+p#description{
+    font-family: 'Playfair Display', serif;
+    margin: 30px;
+    width: 90%;
+    font-size: 25px;
+}
+
+h1{
+    margin-left: 50px; 
+    margin-top: 50px;
+    text-align: left;
+}
+
+.findoutmore{
+    margin-right: 50%; 
+    width: 150px;
+    height: 50px; 
+    transition: transform .2s;  
+}
+
+.findoutmore:hover {
+    transform: scale(1.2); 
+}
+
+img{
+    display: inline-block;
+}
+
+img#foodcpr{
+    width: min-content;
+    float: left;
+    margin-left: 20px;
+    display: block; 
+    text-align: left;
+}
+
+
+img#recycle{
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: block;
+    text-align: left;
+}
+
+img#brooks{
+    width: 500px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+    text-align: left;
+}
+
+img#metalstraw{
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+    display: block;
+    text-align: left;
+}
+
+img#milo{
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: left;
+}
+.midtitle{
+    display:block;
+    position:fixed;
+    background-color: antiquewhite;
+    width:100%;
+    z-index:100;
+    top:0;
+    padding-top:0;
+    margin:0;
+    list-style: none;     
+}
+img#logo2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height: 50px;
+    padding:10px;
+}
+
